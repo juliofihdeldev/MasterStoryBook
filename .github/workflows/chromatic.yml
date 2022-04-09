@@ -2,9 +2,10 @@
 name: 'Chromatic Deployment'
 
 # Event for the workflow
-on: push
-   branches: [main]
- workflow_dispatch; 
+on: 
+   push:
+    branches:
+      -'main'
 # List of jobs
 jobs:
   test:
