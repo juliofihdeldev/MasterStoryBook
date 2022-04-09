@@ -13,11 +13,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-redux": "^7.2.8",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
@@ -72,5 +74,8 @@
     "msw": "^0.36.8",
     "msw-storybook-addon": "^1.6.0",
     "react-test-renderer": "^18.0.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
