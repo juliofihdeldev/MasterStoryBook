@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchTasks } from '../lib/store';
 import TaskList from './TaskList';
 
+
 export default function InboxScreen() {
   const dispatch = useDispatch();
   // We're retrieving the error field from our updated store
@@ -27,7 +28,7 @@ export default function InboxScreen() {
     <div className="page lists-show">
       <nav>
         <h1 className="title-page">
-          <span className="title-wrapper">Taskbox</span>
+          <span className="title-wrapper">Taskbox </span>
         </h1>
       </nav>
       <TaskList />
